@@ -1,0 +1,38 @@
+/* half_section*/
+#half_section .section_wrapper {
+    padding-top: 0;
+}
+
+/* first_section */
+/*
+#first_section {
+    height: 20px;
+}*/
+
+/* seconc_section*/
+#second_section .lillemenu {
+    padding-top: 60px;
+}
+
+/* third_section*/
+#third_section .section_wrapper .Projekt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+
+#third_section .section_wrapper .Projekt .col {
+    background-color: white;
+}
+
+
+#third_section h3 {
+    text-align: center;
+    font-family: 'varela_roundregular';
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+}

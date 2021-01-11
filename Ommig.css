@@ -1,0 +1,143 @@
+p {
+    font-family: 'varela_roundregular', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'playfair_displayregular', serif;
+    font-weight: 100;
+}
+
+
+
+
+/* First section */
+
+#first_section h2 {
+    font-family: 'varela_roundregular', sans-serif;
+}
+
+
+/* Half section */
+
+#half_section .section_wrapper img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
+}
+
+#half_section {
+    padding-bottom: 50px;
+}
+
+
+
+/* Second section */
+
+
+#second_section .section_wrapper .interesse {
+    display: grid;
+    grid-template-columns: 0.6fr 2fr;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#second_section .section_wrapper h4 {
+    font-family: 'playfair_displayregular', serif;
+    font-weight: 100;
+}
+
+
+
+/* Third section */
+
+#third_section {
+    padding-bottom: 50px;
+}
+
+#third_section .section_wrapper {
+    padding-top: 40px;
+}
+
+
+#third_section .section_wrapper .profil {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#third_section .section_wrapper .profil .col {
+    background-color: #fffcf8;
+}
+
+#third_section p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'varela_roundregular', sans-serif;
+
+}
+
+/*
+#third_section img {
+    padding-left: 50px;
+}
+*/
+
+#third_section .col img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* fourth setion */
+#fourth_section a {
+    font-family: 'playfair_displayregular', serif;
+    font-weight: 100;
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+/* desk regler */
+
+@media(min-width:600px) {
+
+
+
+    #half_section {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #half_section .section_wrapper img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #third_section .section_wrapper .profil {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #third_section .section_wrapper img {
+        width: 300px;
+        align-content: center;
+    }
+
+
+
+
+}

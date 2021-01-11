@@ -1,0 +1,19 @@
+#second_section .lillemenu {
+    padding-top: 60px;
+}
+
+/*
+#first_section {
+    height: 20px;
+}
+*/
+
+#second_section h3 {
+    text-align: center;
+    font-family: 'varela_roundregular';
+    font-weight: 100;
+}
+
+h2 {
+/*    text-align: center;*/
+}

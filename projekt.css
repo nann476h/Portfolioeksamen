@@ -1,0 +1,125 @@
+h1 {
+
+    font-size: 10vw;
+    text-align: center;
+    font-family: 'playfair_displayregular';
+    font-weight: 100;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'playfair_displayregular';
+    font-weight: 100;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'varela_roundregular', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #d4b892;
+}
+
+p {
+    font-family: 'varela_roundregular', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+}
+
+h4 {
+    font-family: 'verela_roundregular', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#first_section h1 {
+    color: none;
+}
+
+#second_section .section_wrapper .tekst h3 {
+    font-family: 'verela_roundregular', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#second_section .section_wrapper .tekst {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* first section */
+#first_section {
+    padding-bottom: 0 auto;
+    margin-bottom: 0 auto;
+}
+
+
+/* second section */
+
+#second_section .tekst {
+    background-color: #fffcf8;
+}
+
+#second_section .section_wrapper {
+    margin-top: 20px;
+}
+
+#second_section .section_wrapper .tekst a {
+    color: #d4b892;
+    font-family: 'verela_roundregular', sans-serif;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+/* third_section */
+
+#third_section .section_wrapper_sketch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-bottom: 40px;
+}
+
+#third_section .section_wrapper_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+@media(min-width:600px) {
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    h4 {
+        font-family: 'verela_roundregular', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+}
