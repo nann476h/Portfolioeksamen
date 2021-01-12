@@ -26,6 +26,16 @@
     background-color: white;
 }
 
+#third_section .section_wrapper a {
+    color: #d4b892;
+    font-family: 'verela_roundregular', sans-serif;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
 
 #third_section h3 {
     text-align: center;
